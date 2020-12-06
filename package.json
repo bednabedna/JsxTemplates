@@ -1,20 +1,19 @@
 {
-  "name": "jsx",
+  "name": "sapienza-war-bot",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@babel/cli": "^7.10.3",
-    "@babel/core": "^7.10.3",
-    "@babel/plugin-transform-react-jsx": "^7.10.3",
-    "@babel/plugin-transform-react-jsx-source": "^7.10.3",
-    "html-minifier": "^4.0.0",
-    "yargs": "^15.4.1"
+    "express": "^4.16.4",
+    "serve-index": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
   }
 }
